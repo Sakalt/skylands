@@ -31,12 +31,14 @@ class EntitySkySlime(world: World) extends EntitySlime(world) with IEntityAdditi
 
   // スポーンデータの保存
   override def writeSpawnData(data: PacketBuffer): Unit = {
-    // スポーンデータの書き込み
+    data.writeFloat(this.getHealth) // HPを保存
+    // 他のカスタムデータをここに追加することができます
   }
 
   // スポーンデータの読み込み
   override def readSpawnData(data: PacketBuffer): Unit = {
-    // スポーンデータの読み込み
+    this.setHealth(data.readFloat()) // HPを復元
+    // 他のカスタムデータをここに追加することができます
   }
 
   // スカイスライムのサウンドイベント
