@@ -19,7 +19,7 @@ import org.lolhens.skylands.world.SimpleTeleporter
   * Created by pierr on 02.01.2017.
   */
 class BlockCloud extends Block(MaterialCloud) {
-  setUnlocalizedName("skylandsmod:cloud")
+  setUnlocalizedName("skylands:cloud")
   setCreativeTab(CreativeTabs.BUILDING_BLOCKS)
   setHardness(1)
   setResistance(2)
