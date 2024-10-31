@@ -10,7 +10,7 @@ import net.minecraft.creativetab.CreativeTabs
   * Created by pierr on 14.01.2017.
   */
 class BlockBeanStem extends Block(Material.CACTUS) {
-  setUnlocalizedName("skylandsmod:beanstem")
+  setUnlocalizedName("skylands:beanstem")
   setCreativeTab(CreativeTabs.MISC)
   setHardness(0.8f)
   setResistance(3)
