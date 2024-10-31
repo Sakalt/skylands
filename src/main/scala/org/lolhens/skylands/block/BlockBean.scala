@@ -13,7 +13,7 @@ import org.lolhens.skylands.tileentities.TileEntityBeanPlant
   * Created by pierr on 14.01.2017.
   */
 class BlockBean extends BlockContainer(Material.CACTUS) {
-  setUnlocalizedName("skylandsmod:bean")
+  setUnlocalizedName("skylands:bean")
   setCreativeTab(CreativeTabs.MISC)
   setHardness(0.8f)
   setResistance(3)
